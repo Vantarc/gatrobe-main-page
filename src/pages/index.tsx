@@ -10,9 +10,14 @@ import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
 // import Pricing from '../components/Pricing';
 import Product from '../components/Product';
+import Head from 'next/head'
+
+
 
 const App = () => {
-  return (
+  return (<>    <Head>
+    <title>Arbeitssaal Gatrobe</title>
+  </Head>
     <div className={`bg-background grid gap-y-16 overflow-hidden`}>
       <div className={`relative bg-background`}>
         <div className="max-w-7xl mx-auto">
@@ -43,12 +48,12 @@ const App = () => {
       <LazyShow>
         <>
           {/* <Canvas /> */}
-          <About page="home" />
+          <About />
         </>
       </LazyShow>
       <Analytics page="home" />
     </div>
-  );
+    </>);
 };
 
 export default App;

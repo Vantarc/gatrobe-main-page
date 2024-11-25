@@ -8,10 +8,14 @@ import Header from '../../components/Header';
 import LazyShow from '../../components/LazyShow';
 // import Pricing from '../components/Pricing';
 import Product from '../../components/Product';
+import Head from 'next/head';
 
 const App = () => {
   return (
     <div className={`bg-background grid gap-y-16 overflow-hidden`}>
+      <Head>
+    <title>Über uns</title>
+  </Head>
       <div className={`relative bg-background`}>
         <div className="max-w-7xl mx-auto">
           <div
@@ -39,7 +43,7 @@ const App = () => {
       <LazyShow>
         <>
           {/* <Canvas /> */}
-          <About  page="about-page"/>
+          <About />
         </>
       </LazyShow>
       <Analytics  page="about-page"/>

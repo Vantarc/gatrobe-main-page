@@ -1,14 +1,12 @@
 import React from 'react';
 
 import config from '../config/index.json';
-interface Props {
-  page: string;
-}
 
-const About = ({page}:Props) => {
+
+const About = () => {
   const { company, about } = config;
   const { logo, name: companyName } = company;
-  const { socialMedia, sections } = about;
+  const { sections } = about;
 
   return (
     <div

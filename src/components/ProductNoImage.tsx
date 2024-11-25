@@ -10,6 +10,7 @@ interface Props {
 const ProductNoImage = ({page}:Props) => {
 
   const {pageData} = config;
+
   const { itemList } = pageData[page as keyof typeof pageData];;
   const [items] = itemList.items;
 
