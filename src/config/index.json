@@ -1,0 +1,831 @@
+{
+  "navigation": [
+    {
+      "name": "Über uns",
+      "href": "/about"
+    },
+    {
+      "name": "Skripte",
+      "href": "/scripts"
+    },
+    {
+      "name": "Kontakt",
+      "href": "/contact"
+    }
+  ],
+  "callToAction": {
+    "text": "Komm vorbei!",
+    "href": "/anfahrt"
+  },
+  "company": {
+    "name": "Arbeitssaal Gatrobe",
+    "logo": "/assets/images/Logo_square.png"
+  },
+  "about": {
+    "sections": [
+      {
+        "name": "Impressum",
+        "href": "/impressum",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Datenschutz",
+        "href": "/datenschutz",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      }
+    ],
+    "socialMedia": {
+      "github": "https://github.com/issaafalkattan",
+      "twitter": "https://twitter.com/issaafkattan",
+      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+    }
+  },
+  "pageData": {
+    "home": {
+      "mainHero": {
+        "title": "Willkommen beim",
+        "subtitle": "Arbeitssaal Gatrobe",
+        "description": "Die Gatrobe ist ein selbstorganisierter Arbeitssaal der Student:innen der Fakultäten Elektrotechnik und Informatik sowie Maschinenbau an der Leibniz Universität Hannover.",
+        "imgOpened": "/assets/images/render-on-2.png",
+        "imgClosed": "/assets/images/render-off.png",
+        "primaryAction": {
+          "text": "Mehr entdecken",
+          "href": "#product"
+        },
+        "secondaryAction": {
+          "text": "Finde uns",
+          "href": "/anfahrt"
+        }
+      },
+      "product": {
+        "title": "Das sind wir",
+        "items": [
+          {
+            "title": "",
+            "description": "Bei uns kann im Team oder alleine an den vorhandenen Schreibtischen gelernt und getroffen werden. Dazu bieten wir eine umfangreiche Sammlung an Fachliteratur, Vorlesungs- und Labormitschriften und Prüfungsprotokolle. Im Arbeitsaal fällt auch der Kontakt zu höheren Semestern leicht und so können wichtige und hilfreiche Tipps zum Studium und das Leben drum herum abgerufen werden. Bei Interesse kann man dem Saal beitreten. Daraus entstehen keine Verpflichtungen, wie man sie vielleicht von Studentenverbindungen oder Burschenschaften kennt.",
+            "img": "/assets/images/Gruppenbild2.png"
+          },
+          {
+            "title": "",
+            "description": "Zunächst wird jeder bei der Vollversammlung (VV) des Saals (alle 3 Monate) als Gast aufgenommen und sollte bis zur nächsten VV den Saal überzeugen, dass er sich als Mitglied eignet. Bei der nächsten VV wird abgestimmt, ob der Gast als Mitglied aufgenommen wird. Jedes Mitglied hat Anrecht auf einen Schlüssel zum Saal. Des weiteren können Mitglieder die vielen Vorteile, die der Saal bietet, zu günstigen Preisen nutzen (z.B. Drucken, Kopieren, Scannen, Getränke, Kaffee, Süßigkeiten, Pizza, Computerspiele, Internetzugang mit hoher Bandbreite uvm.) Durch die Vorteile der Gemeinschaft im Arbeitsaal ist es jedem Mitglied möglich von den Erfahrungen und dem Wissen der höheren Semester und gleich 'alten' Kommilitonen zu profitieren und so das Studium in angemessener Zeit und mit guten Ergebnissen zu absolvieren. Klingt gut? Dann komm doch einfach mal vorbei und lern uns kennen",
+            "img": "/assets/images/Saal.jpg"
+          }
+        ]
+      },
+      "features": {
+        "title": "Latest & greatest ",
+        "subtitle": "All the best technologies out there!",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+        "items": [
+          {
+            "name": "React.js",
+            "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
+            "icon": "/assets/images/react.png"
+          },
+          {
+            "name": "Tailwind",
+            "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
+            "icon": "/assets/images/tailwindcss.svg"
+          },
+          {
+            "name": "Next.js",
+            "description": "Next.js is a framework for server-rendered React applications using Next.js.",
+            "icon": "/assets/images/nextjs.svg"
+          },
+          {
+            "name": "Typescript",
+            "description": "TypeScript is a programming language developed and maintained by Microsoft.",
+            "icon": "/assets/images/ts.png"
+          }
+        ]
+      },
+      "pricing": {
+        "title": "Pricing",
+        "items": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "priceDetails": "for one user",
+            "features": [
+              "1 user",
+              "Basic Support",
+              "1 GB of storage",
+              "Email support"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$15",
+            "priceDetails": "per user",
+            "features": [
+              "5 users",
+              "Priority Support",
+              "10 GB of storage",
+              "Phone and Email support"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "$29",
+            "priceDetails": "per user",
+            "features": [
+              "50 users",
+              "24/7 Support",
+              "100 GB of storage",
+              "Phone and Email support"
+            ]
+          }
+        ]
+      }
+    },
+    "about-page": {
+      "mainHero": {
+        "title": "",
+        "subtitle": "",
+        "description": "",
+        "imgOpened": "",
+        "imgClosed": "",
+        "primaryAction": {
+          "text": "",
+          "href": ""
+        },
+        "secondaryAction": {
+          "text": "",
+          "href": ""
+        }
+      },
+      "product": {
+        "title": "Über uns",
+        "items": [
+          {
+            "title": "Sinn und Zweck des Saales",
+            "description": "Sinn des Arbeitsaales ist das gemeinschaftliche Lernen. Zusammen mit anderen Studierenden hast du hier die Möglichkeit dich auf Klausuren, Prüfungen, Testate oder Labore vorzubereiten. Dass diese Art von gegenseitiger Unterstützung hilfreich sein kann, steht außer Frage. Die hohen Durchfallquoten im Studiengang Elektrotechnik zeigen deutlich, dass Einzelkämpfertum sich in diesem Studiengang kaum bezahlt macht. Es lohnt sich also Hilfe und Unterstützung von Mitstudierenden in Anspruch zu nehmen. Außerdem ist es gerade für Studienanfänger:innen wichtig soziale Kontakte innerhalb der Fakultät zu knüpfen, um optimal ins Studium starten zu können. In kleinen Gruppen kann man sich auch gegenseitig Arbeiten abnehmen, indem man zum Beispiel abwechselnd in Vorlesungen mitschreibt und diese Mitschriften dann untereinander austauscht. Außerdem ist es auch angenehm, gleichgesinnte Leidensgenossen-Innen um sich zu haben, mit denen in schweren Stunden die Vor- und Nachteile des Elektrotechnikstudiengangs diskutiert werden kann.",
+            "img": "/assets/images/Saal.jpg"
+          },
+          {
+            "title": "Geschichte und Traditionen",
+            "description": "1965 wurde das Otto-Klüsener Haus gebaut (OKHaus, Nähe Audimax, Im Moore 11B). Im Erdgeschoss gab es die Einrichtung einer Garderobe mit Stahlspinden für persönliches Hab und Gut. In den 70er Jahren sind die Arbeitssäle im OK-Haus stark ausgelastet, so dass sich eine Gruppe aus der DUESE löst. Der Arbeitssaal Gatrobe wird in der wenig frequentierten Garderobe im Erdgeschoss gegründet. Bis zum 29. März 2000 befand der Arbeitsaal Gatrobe sich noch im Erdgeschoss. Damals war er der dunkelste der vier Elektrotechnik Arbeitssäle. Zur allgemeinen Freude, beschloss die Universität aber alle Fachbereiche zu zentralisieren. Das bedeutete für uns nämlich den Umzug in die Nähe des Hochhauses, indem sich unter anderem der Fachbereich Elektrotechnik befindet. Nun befindet sich die Gatrobe im Dachgeschoss in der Callinstraße 34 direkt neben dem Hochhaus und auf einer Etage mit dem Arbeitssaal Dachkammer. Hier sind die Räumlichkeiten um vieles heller und auch die Temperaturen wesentlich angenehmer.",
+            "img": "/assets/images/Abrissparty.jpg"
+          }
+        ]
+      },
+      "features": {
+        "title": "",
+        "subtitle": "",
+        "description": "",
+        "items": [
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          },
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          },
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          },
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          }
+        ]
+      },
+      "pricing": {
+        "title": "",
+        "items": [
+          {
+            "name": "",
+            "price": "",
+            "priceDetails": "",
+            "features": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "name": "",
+            "price": "",
+            "priceDetails": "",
+            "features": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "name": "",
+            "price": "",
+            "priceDetails": "",
+            "features": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      }
+    },
+    "scripts": {
+      "mainHero": {
+        "title": "",
+        "subtitle": "",
+        "description": "",
+        "imgOpened": "",
+        "imgClosed": "",
+        "primaryAction": {
+          "text": "",
+          "href": ""
+        },
+        "secondaryAction": {
+          "text": "",
+          "href": ""
+        }
+      },
+      "itemList": {
+        "title": "Skripte",
+        "subtitle": "Bei uns findest du die folgenden Skripte:",
+        "items": [
+          "Institut für Kommunikationstechnik (IKT)",
+          "∘ Signale und Systeme",
+          "Institut für elektrische Energieversorgung (IEE)",
+          "∘ Grundlagen der elektrischen Energieversorgung",
+          "∘ Elektrische Energieversorgung I",
+          "∘ Elektrische Energieversorgung II",
+          "∘ Elektrische Netze I",
+          "∘ Elektrische Netze II",
+          "Institut für Grundlagen der Elektrotechnik und Messtechnik (GEM)",
+          "∘ Elektromagnetische Verträglichkeit"
+        ]
+      },
+      "features": {
+        "title": "",
+        "subtitle": "",
+        "description": "",
+        "items": [
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          },
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          },
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          },
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          }
+        ]
+      },
+      "pricing": {
+        "title": "",
+        "items": [
+          {
+            "name": "",
+            "price": "",
+            "priceDetails": "",
+            "features": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "name": "",
+            "price": "",
+            "priceDetails": "",
+            "features": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "name": "",
+            "price": "",
+            "priceDetails": "",
+            "features": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      }
+    },
+    "contact": {
+      "mainHero": {
+        "title": "",
+        "subtitle": "",
+        "description": "",
+        "imgOpened": "",
+        "imgClosed": "",
+        "primaryAction": {
+          "text": "",
+          "href": ""
+        },
+        "secondaryAction": {
+          "text": "",
+          "href": ""
+        }
+      },
+      "itemList": {
+        "title": "Kontakt",
+        "subtitle": "",
+        "items": [
+          "Arbeitssaal Gatrobe",
+          "Callinstr. 34",
+          "Appelstraße 9A (Postadresse)",
+          "30167 Hannover",
+          "Telefon: +49-511-762 19005",
+          "E-Mail: chef@gatrobe.uni-hannover.de"
+        ]
+      },
+      "features": {
+        "title": "",
+        "subtitle": "",
+        "description": "",
+        "items": [
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          },
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          },
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          },
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          }
+        ]
+      },
+      "pricing": {
+        "title": "",
+        "items": [
+          {
+            "name": "",
+            "price": "",
+            "priceDetails": "",
+            "features": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "name": "",
+            "price": "",
+            "priceDetails": "",
+            "features": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "name": "",
+            "price": "",
+            "priceDetails": "",
+            "features": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      }
+    },
+    "orga": {
+      "mainHero": {
+        "title": "",
+        "subtitle": "",
+        "description": "",
+        "imgOpened": "",
+        "imgClosed": "",
+        "primaryAction": {
+          "text": "",
+          "href": ""
+        },
+        "secondaryAction": {
+          "text": "",
+          "href": ""
+        }
+      },
+      "itemList": {
+        "title": "Saalfunktionen",
+        "subtitle": "",
+        "items": [
+          "Arbeitssaal Gatrobe",
+          "Callinstr. 34",
+          "Appelstraße 9A (Postadresse)",
+          "30167 Hannover",
+          "Telefon: +49-511-762 19005",
+          "E-Mail: chef@gatrobe.uni-hannover.de"
+        ]
+      },
+      "features": {
+        "title": "",
+        "subtitle": "",
+        "description": "",
+        "items": [
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          },
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          },
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          },
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          }
+        ]
+      },
+      "pricing": {
+        "title": "Rollen",
+        "items": [
+          {
+            "name": "Gast",
+            "price": "",
+            "priceDetails": "",
+            "features": [
+              "Test"
+            ]
+          },
+          {
+            "name": "Anwärter",
+            "price": "",
+            "priceDetails": "",
+            "features": [
+              "Test",
+              "Test",
+              "Test",
+              "Test"
+            ]
+          },
+          {
+            "name": "Mitglied",
+            "price": "5€",
+            "priceDetails": "pro Semester",
+            "features": [
+              "Unbegrenzten Zugriff auf Altprotokolle",
+              "Test",
+              "Test",
+              ""
+            ]
+          }
+        ]
+      }
+    },
+    "anfahrt": {
+      "mainHero": {
+        "title": "",
+        "subtitle": "",
+        "description": "",
+        "imgOpened": "",
+        "imgClosed": "",
+        "primaryAction": {
+          "text": "",
+          "href": ""
+        },
+        "secondaryAction": {
+          "text": "",
+          "href": ""
+        }
+      },
+      "product": {
+        "title": "Über uns!",
+        "items": [
+          {
+            "title": "So kommst du im Gebäude zu uns:",
+            "description": "Wir haben unsere Räume im 3. Stock in der Callinstr. 34 (Gebäudenummer 3407). An Wochentagen kann man durch den Vordereingang und das Haus in der 2. Etage durchqueren um zum Arbeitssaal zu gelangen. Nach Feierabend und an Wochenenden kann der Saal durch den Eingang auf der Hinterseite des Hauses erreicht werden. \n \nKommt uns doch einfach mal besuchen und macht euch selbst einen Eindruck vom Arbeitssaal Gatrobe.",
+            "img": "/assets/images/weg-filled.png"
+          },
+          {
+            "title": "",
+            "description": "",
+            "img": ""
+          }
+        ]
+      },
+      "features": {
+        "title": "",
+        "subtitle": "",
+        "description": "",
+        "items": [
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          },
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          },
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          },
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          }
+        ]
+      },
+      "pricing": {
+        "title": "",
+        "items": [
+          {
+            "name": "",
+            "price": "",
+            "priceDetails": "",
+            "features": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "name": "",
+            "price": "",
+            "priceDetails": "",
+            "features": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "name": "",
+            "price": "",
+            "priceDetails": "",
+            "features": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      }
+    },
+    "datenschutz": {
+      "mainHero": {
+        "title": "",
+        "subtitle": "",
+        "description": "",
+        "imgOpened": "",
+        "imgClosed": "",
+        "primaryAction": {
+          "text": "",
+          "href": ""
+        },
+        "secondaryAction": {
+          "text": "",
+          "href": ""
+        }
+      },
+      "product": {
+        "title": "Über uns!",
+        "items": [
+          {
+            "title": "Sinn und Zweck des Saales",
+            "description": "Sinn des Arbeitsaales ist das gemeinschaftliche Lernen. Zusammen mit anderen Studierenden hast du hier die Möglichkeit dich auf Klausuren, Prüfungen, Testate oder Labore vorzubereiten. Dass diese Art von gegenseitiger Unterstützung hilfreich sein kann, steht außer Frage. Die hohen Durchfallquoten im Studiengang Elektrotechnik zeigen deutlich, dass Einzelkämpfertum sich in diesem Studiengang kaum bezahlt macht. Es lohnt sich also Hilfe und Unterstützung von Mitstudierenden in Anspruch zu nehmen. Außerdem ist es gerade für Studienanfänger:innen wichtig soziale Kontakte innerhalb der Fakultät zu knüpfen, um optimal ins Studium starten zu können. In kleinen Gruppen kann man sich auch gegenseitig Arbeiten abnehmen, indem man zum Beispiel abwechselnd in Vorlesungen mitschreibt und diese Mitschriften dann untereinander austauscht. Außerdem ist es auch angenehm, gleichgesinnte Leidensgenossen-Innen um sich zu haben, mit denen in schweren Stunden die Vor- und Nachteile des Elektrotechnikstudiengangs diskutiert werden kann.",
+            "img": "/assets/images/Saal.jpg"
+          },
+          {
+            "title": "Geschichte und Traditionen",
+            "description": "1965 wurde das Otto-Klüsener Haus gebaut (OKHaus, Nähe Audimax, Im Moore 11B). Im Erdgeschoss gab es die Einrichtung einer Garderobe mit Stahlspinden für persönliches Hab und Gut. In den 70er Jahren sind die Arbeitssäle im OK-Haus stark ausgelastet, so dass sich eine Gruppe aus der DUESE löst. Der Arbeitssaal Gatrobe wird in der wenig frequentierten Garderobe im Erdgeschoss gegründet. Bis zum 29. März 2000 befand der Arbeitsaal Gatrobe sich noch im Erdgeschoss. Damals war er der dunkelste der vier Elektrotechnik Arbeitssäle. Zur allgemeinen Freude, beschloss die Universität aber alle Fachbereiche zu zentralisieren. Das bedeutete für uns nämlich den Umzug in die Nähe des Hochhauses, indem sich unter anderem der Fachbereich Elektrotechnik befindet. Nun befindet sich die Gatrobe im Dachgeschoss in der Callinstraße 34 direkt neben dem Hochhaus und auf einer Etage mit dem Arbeitssaal Dachkammer. Hier sind die Räumlichkeiten um vieles heller und auch die Temperaturen wesentlich angenehmer.",
+            "img": "/assets/images/Abrissparty.jpg"
+          }
+        ]
+      },
+      "features": {
+        "title": "",
+        "subtitle": "",
+        "description": "",
+        "items": [
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          },
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          },
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          },
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          }
+        ]
+      },
+      "pricing": {
+        "title": "",
+        "items": [
+          {
+            "name": "",
+            "price": "",
+            "priceDetails": "",
+            "features": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "name": "",
+            "price": "",
+            "priceDetails": "",
+            "features": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "name": "",
+            "price": "",
+            "priceDetails": "",
+            "features": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      }
+    },
+    "impressum": {
+      "mainHero": {
+        "title": "",
+        "subtitle": "",
+        "description": "",
+        "imgOpened": "",
+        "imgClosed": "",
+        "primaryAction": {
+          "text": "",
+          "href": ""
+        },
+        "secondaryAction": {
+          "text": "",
+          "href": ""
+        }
+      },
+      "itemList": {
+        "title": "Impressum",
+        "subtitle": "",
+        "items": [
+          "Arbeitsaal Gatrobe e.V.\n ",
+          "\n",
+          "Callinstr. 34",
+          "30167 Hannover",
+          "\n",
+          "Tel.: 0511 - 762 19005",
+          "Mail: chef@gatrobe.uni-hannover.de",
+          "\n",
+          "Registernummer: VR 202837",
+          "Registergericht: Amtsgericht Hannover",
+          "\n",
+          "Gemeinschaftlich Vertretungsberechtigt: Emmi Daniels"
+        ]
+      },
+      "product": {
+        "title": "Impressum!",
+        "items": [
+          {
+            "title": "Sinn und Zweck des Saales",
+            "description": "Sinn des Arbeitsaales ist das gemeinschaftliche Lernen. Zusammen mit anderen Studierenden hast du hier die Möglichkeit dich auf Klausuren, Prüfungen, Testate oder Labore vorzubereiten. Dass diese Art von gegenseitiger Unterstützung hilfreich sein kann, steht außer Frage. Die hohen Durchfallquoten im Studiengang Elektrotechnik zeigen deutlich, dass Einzelkämpfertum sich in diesem Studiengang kaum bezahlt macht. Es lohnt sich also Hilfe und Unterstützung von Mitstudierenden in Anspruch zu nehmen. Außerdem ist es gerade für Studienanfänger:innen wichtig soziale Kontakte innerhalb der Fakultät zu knüpfen, um optimal ins Studium starten zu können. In kleinen Gruppen kann man sich auch gegenseitig Arbeiten abnehmen, indem man zum Beispiel abwechselnd in Vorlesungen mitschreibt und diese Mitschriften dann untereinander austauscht. Außerdem ist es auch angenehm, gleichgesinnte Leidensgenossen-Innen um sich zu haben, mit denen in schweren Stunden die Vor- und Nachteile des Elektrotechnikstudiengangs diskutiert werden kann.",
+            "img": "/assets/images/Saal.jpg"
+          },
+          {
+            "title": "Geschichte und Traditionen",
+            "description": "1965 wurde das Otto-Klüsener Haus gebaut (OKHaus, Nähe Audimax, Im Moore 11B). Im Erdgeschoss gab es die Einrichtung einer Garderobe mit Stahlspinden für persönliches Hab und Gut. In den 70er Jahren sind die Arbeitssäle im OK-Haus stark ausgelastet, so dass sich eine Gruppe aus der DUESE löst. Der Arbeitssaal Gatrobe wird in der wenig frequentierten Garderobe im Erdgeschoss gegründet. Bis zum 29. März 2000 befand der Arbeitsaal Gatrobe sich noch im Erdgeschoss. Damals war er der dunkelste der vier Elektrotechnik Arbeitssäle. Zur allgemeinen Freude, beschloss die Universität aber alle Fachbereiche zu zentralisieren. Das bedeutete für uns nämlich den Umzug in die Nähe des Hochhauses, indem sich unter anderem der Fachbereich Elektrotechnik befindet. Nun befindet sich die Gatrobe im Dachgeschoss in der Callinstraße 34 direkt neben dem Hochhaus und auf einer Etage mit dem Arbeitssaal Dachkammer. Hier sind die Räumlichkeiten um vieles heller und auch die Temperaturen wesentlich angenehmer.",
+            "img": "/assets/images/Abrissparty.jpg"
+          }
+        ]
+      },
+      "features": {
+        "title": "",
+        "subtitle": "",
+        "description": "",
+        "items": [
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          },
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          },
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          },
+          {
+            "name": "",
+            "description": "",
+            "icon": ""
+          }
+        ]
+      },
+      "pricing": {
+        "title": "",
+        "items": [
+          {
+            "name": "",
+            "price": "",
+            "priceDetails": "",
+            "features": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "name": "",
+            "price": "",
+            "priceDetails": "",
+            "features": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "name": "",
+            "price": "",
+            "priceDetails": "",
+            "features": [
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

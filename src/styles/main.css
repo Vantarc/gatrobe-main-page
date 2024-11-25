@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --color-primary: #1a2e35;
+  --color-secondary: #1a2e35;
+  --color-tertiaty: #1a2e35;
+}
+
+a { 
+  @apply text-red-700;
+}
+
+a:hover {
+  @apply border-b-2 border-white text-white;
+
+}
+
+.no-border:hover {
+  @apply border-b-0 border-white text-white;
+
+}
+
+
+@media (max-width: 1023px) {
+  .open-img {
+    min-height: 60vw
+  }  
+}
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
+
