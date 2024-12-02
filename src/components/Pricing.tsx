@@ -7,7 +7,7 @@ interface Props {
 const Pricing = ({page}:Props) => {
   const {pageData} = config;
 
-  const { pricing } = pageData[page as keyof typeof pageData];;
+  const { pricing } = pageData[page as keyof typeof pageData];
   const { items, title } = pricing;
   const [firstPlan, secondPlan, thirdPlan] = items;
 

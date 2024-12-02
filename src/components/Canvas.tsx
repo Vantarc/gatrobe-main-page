@@ -8,7 +8,7 @@ const Canvas: FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const { width } = useResponsiveSize();
   const [context, setContext] = useState<
-    CanvasRenderingContext2D | undefined
+  CanvasRenderingContext2D | undefined
   >();
 
   useEffect(() => {

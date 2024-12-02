@@ -7,7 +7,7 @@ interface Props {
 const Features = ({page}:Props) => {
   const {pageData} = config;
 
-  const { features } = pageData[page as keyof typeof pageData];;
+  const { features } = pageData[page as keyof typeof pageData];
   const { title, subtitle, description, items: featuresList } = features;
   return (
     <div className={`py-12 bg-background`} id="features">

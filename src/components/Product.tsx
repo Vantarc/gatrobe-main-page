@@ -10,7 +10,9 @@ interface Props {
 const Product = ({page}:Props) => {
 
   const {pageData} = config;
-  const { product } = pageData[page as keyof typeof pageData];;
+
+
+  const { product } = (pageData[page as keyof typeof pageData] as any);
   const [firstItem, secondItem] = product.items;
 
   return (
@@ -19,7 +21,7 @@ const Product = ({page}:Props) => {
         <h1
           className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}
         >
-          {product.title.split(' ').map((word, index) => (
+          {product.title.split(' ').map((word:any, index:any) => (
             <span
               key={index}
               className={index % 2 ? 'text-primary' : 'text-border'}

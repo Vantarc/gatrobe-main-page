@@ -1,8 +1,5 @@
-import React from 'react';
-
 import config from '../config/index.json';
 import { useEffect, useState } from 'react'
-import { json } from 'stream/consumers';
 
 interface IDataModel {
   imageURL: string
@@ -15,7 +12,7 @@ interface Props {
 const MainHeroImage = ({page}:Props) => {
 
   const {pageData} = config;
-  const { mainHero } = pageData[page as keyof typeof pageData];;
+  const { mainHero } = pageData[page as keyof typeof pageData];
   const [data, setData] = useState<IDataModel>({imageURL: ""})
 
   useEffect(() => {
@@ -26,7 +23,7 @@ const MainHeroImage = ({page}:Props) => {
       })
       const text = await response.text()
       if (response.ok) setData({imageURL: (text==="OPEN" ? mainHero.imgClosed:mainHero.imgOpened)})
-    }
+    };
     GetPost()
   }, [])
   return (

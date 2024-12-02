@@ -1,13 +1,9 @@
 import React from 'react';
 
-import config from '../config/index.json';
 import Divider from './Divider';
 
-interface Props {
-  page: string;
-}
 
-const Anfahrt = ({page}:Props) => {
+const Anfahrt = () => {
 
   return (
     <section className={`bg-background py-8`} id="product">

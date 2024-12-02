@@ -7,7 +7,6 @@ import Analytics from '../../components/Analytics';
 import Header from '../../components/Header';
 import LazyShow from '../../components/LazyShow';
 import Pricing from '../../components/Pricing';
-import ProductNoImage from '../../components/ProductNoImage';
 import Head from 'next/head';
 
 const App = () => {
@@ -21,7 +20,7 @@ const App = () => {
           <div
             className={`relative z-10 pb-8 bg-background sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32`}
           >
-            <Header  page="orga"/>
+            <Header  />
           </div>
         </div>
       </div>
@@ -46,7 +45,7 @@ const App = () => {
           <About />
         </>
       </LazyShow>
-      <Analytics  page="orga"/>
+      <Analytics  />
     </div>
   );
 };

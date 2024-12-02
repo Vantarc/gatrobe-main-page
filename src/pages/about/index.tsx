@@ -21,7 +21,7 @@ const App = () => {
           <div
             className={`relative z-10 pb-8 bg-background sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32`}
           >
-            <Header  page="about-page"/>
+            <Header />
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@ const App = () => {
           <About />
         </>
       </LazyShow>
-      <Analytics  page="about-page"/>
+      <Analytics/>
     </div>
   );
 };

@@ -11,8 +11,7 @@ const ProductNoImage = ({page}:Props) => {
 
   const {pageData} = config;
 
-  const { itemList } = pageData[page as keyof typeof pageData];;
-  const [items] = itemList.items;
+  const { itemList } = (pageData[page as keyof typeof pageData] as any);
 
   return (
     <section className={`bg-background py-8`} id="product">
@@ -20,7 +19,7 @@ const ProductNoImage = ({page}:Props) => {
         <h1
           className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}
         >
-          {itemList.title.split(' ').map((word, index) => (
+          {itemList.title.split(' ').map((word:any, index:any) => (
             <span
               key={index}
               className={index % 2 ? 'text-primary' : 'text-border'}
@@ -37,7 +36,9 @@ const ProductNoImage = ({page}:Props) => {
             >
               {itemList.subtitle}
             </h3>
-            {itemList.items.map((i:string)=> {return <p className={`text-gray-400 text-justify`} style={{whiteSpace: "pre-line"}}>{i}</p>
+            {itemList.items.map((i:string)=> {
+              return <p key={i} className={`text-gray-400 text-justify`} style={{whiteSpace: "pre-line"}
+            }>{i}</p>
 
             })}
           </div>

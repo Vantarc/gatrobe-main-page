@@ -5,11 +5,10 @@ import Script from 'next/script';
 
 import { GA_ADS_ID } from '../lib/googleAds';
 import * as gtag from '../lib/gtag';
-interface Props {
-  page: string;
-}
 
-const App = ({page}:Props) => {
+
+
+const App = () => {
   const router = useRouter();
   useEffect(() => {
     const handleRouteChange = (url: string) => {

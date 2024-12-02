@@ -7,7 +7,6 @@ import Analytics from '../../components/Analytics';
 import Header from '../../components/Header';
 import LazyShow from '../../components/LazyShow';
 // import Pricing from '../components/Pricing';
-import ProductNoImage from '../../components/ProductNoImage';
 import Anfahrt from '../../components/Anfahrt';
 import Product from '../../components/Product';
 import Head from 'next/head';
@@ -23,12 +22,12 @@ const App = () => {
           <div
             className={`relative z-10 pb-8 bg-background sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32`}
           >
-            <Header  page="anfahrt"/>
+            <Header/>
           </div>
         </div>
       </div>
       <div className="google-map-code">
-            <Anfahrt page={""}/>
+            <Anfahrt/>
         </div>
       <LazyShow>
         <>
@@ -51,7 +50,7 @@ const App = () => {
           <About/>
         </>
       </LazyShow>
-      <Analytics  page="anfahrt"/>
+      <Analytics />
     </div>
   );
 };
