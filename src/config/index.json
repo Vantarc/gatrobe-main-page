@@ -11,6 +11,10 @@
     {
       "name": "Kontakt",
       "href": "/contact"
+    },
+    {
+      "name": "Intern",
+      "href": "https://home.gatrobe.de"
     }
   ],
   "callToAction": {
@@ -203,34 +207,19 @@
             "name": "",
             "price": "",
             "priceDetails": "",
-            "features": [
-              "",
-              "",
-              "",
-              ""
-            ]
+            "features": ["", "", "", ""]
           },
           {
             "name": "",
             "price": "",
             "priceDetails": "",
-            "features": [
-              "",
-              "",
-              "",
-              ""
-            ]
+            "features": ["", "", "", ""]
           },
           {
             "name": "",
             "price": "",
             "priceDetails": "",
-            "features": [
-              "",
-              "",
-              "",
-              ""
-            ]
+            "features": ["", "", "", ""]
           }
         ]
       }
@@ -301,34 +290,19 @@
             "name": "",
             "price": "",
             "priceDetails": "",
-            "features": [
-              "",
-              "",
-              "",
-              ""
-            ]
+            "features": ["", "", "", ""]
           },
           {
             "name": "",
             "price": "",
             "priceDetails": "",
-            "features": [
-              "",
-              "",
-              "",
-              ""
-            ]
+            "features": ["", "", "", ""]
           },
           {
             "name": "",
             "price": "",
             "priceDetails": "",
-            "features": [
-              "",
-              "",
-              "",
-              ""
-            ]
+            "features": ["", "", "", ""]
           }
         ]
       }
@@ -395,34 +369,19 @@
             "name": "",
             "price": "",
             "priceDetails": "",
-            "features": [
-              "",
-              "",
-              "",
-              ""
-            ]
+            "features": ["", "", "", ""]
           },
           {
             "name": "",
             "price": "",
             "priceDetails": "",
-            "features": [
-              "",
-              "",
-              "",
-              ""
-            ]
+            "features": ["", "", "", ""]
           },
           {
             "name": "",
             "price": "",
             "priceDetails": "",
-            "features": [
-              "",
-              "",
-              "",
-              ""
-            ]
+            "features": ["", "", "", ""]
           }
         ]
       }
@@ -489,20 +448,13 @@
             "name": "Gast",
             "price": "",
             "priceDetails": "",
-            "features": [
-              "Test"
-            ]
+            "features": ["Test"]
           },
           {
             "name": "Anwärter",
             "price": "",
             "priceDetails": "",
-            "features": [
-              "Test",
-              "Test",
-              "Test",
-              "Test"
-            ]
+            "features": ["Test", "Test", "Test", "Test"]
           },
           {
             "name": "Mitglied",
@@ -583,34 +535,19 @@
             "name": "",
             "price": "",
             "priceDetails": "",
-            "features": [
-              "",
-              "",
-              "",
-              ""
-            ]
+            "features": ["", "", "", ""]
           },
           {
             "name": "",
             "price": "",
             "priceDetails": "",
-            "features": [
-              "",
-              "",
-              "",
-              ""
-            ]
+            "features": ["", "", "", ""]
           },
           {
             "name": "",
             "price": "",
             "priceDetails": "",
-            "features": [
-              "",
-              "",
-              "",
-              ""
-            ]
+            "features": ["", "", "", ""]
           }
         ]
       }
@@ -680,34 +617,19 @@
             "name": "",
             "price": "",
             "priceDetails": "",
-            "features": [
-              "",
-              "",
-              "",
-              ""
-            ]
+            "features": ["", "", "", ""]
           },
           {
             "name": "",
             "price": "",
             "priceDetails": "",
-            "features": [
-              "",
-              "",
-              "",
-              ""
-            ]
+            "features": ["", "", "", ""]
           },
           {
             "name": "",
             "price": "",
             "priceDetails": "",
-            "features": [
-              "",
-              "",
-              "",
-              ""
-            ]
+            "features": ["", "", "", ""]
           }
         ]
       }
@@ -795,34 +717,19 @@
             "name": "",
             "price": "",
             "priceDetails": "",
-            "features": [
-              "",
-              "",
-              "",
-              ""
-            ]
+            "features": ["", "", "", ""]
           },
           {
             "name": "",
             "price": "",
             "priceDetails": "",
-            "features": [
-              "",
-              "",
-              "",
-              ""
-            ]
+            "features": ["", "", "", ""]
           },
           {
             "name": "",
             "price": "",
             "priceDetails": "",
-            "features": [
-              "",
-              "",
-              "",
-              ""
-            ]
+            "features": ["", "", "", ""]
           }
         ]
       }
